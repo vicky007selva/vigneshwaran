@@ -135,7 +135,7 @@ function App() {
         </Box>
         <Box sx={{ marginTop: '1rem', width: '50%', height: '50%' }}>
           <Avatar id="img"
-            src="../public/craiyon_184046_software_developer.png"
+            src="./vigneshwaran/craiyon_184046_software_developer.png"
             alt="Remy Sharp"
             //  src="/20221007_134628.png"
             sx={{ width: '100%', height: '100%' }}
