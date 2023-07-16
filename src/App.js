@@ -25,8 +25,8 @@ function App() {
   return (
     <>
       <CommonAppbar />
-      <Box sx={{ display: 'flex', flexDirection: 'row', gap: '4rem', width: '100%', height: '50%' }}>
-        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: "#182535", marginTop: '1rem', padding: '5%', paddingBottom: '50%' }} width='50%' height='50%' >
+      <Box sx={{ display: 'flex', flexDirection: 'row', gap: '4rem', width: '100%', maxHeight: '50%' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: "#182535", marginTop: '1rem', padding: '5%', }} width='50%' height='50%' >
           <h1 style={{ color: '#9734b5', fontWeight: 'bold' }}>
             <span>Hey </span>I am <span>Vigneshwaran</span>
           </h1>
@@ -135,7 +135,7 @@ function App() {
         </Box>
         <Box sx={{ marginTop: '1rem', width: '50%', height: '50%' }}>
           <Avatar id="img"
-            src="/craiyon_184046_software_developer.png"
+            src="../public/craiyon_184046_software_developer.png"
             alt="Remy Sharp"
             //  src="/20221007_134628.png"
             sx={{ width: '100%', height: '100%' }}
