@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vigneshwaran/static/css/main.c248ea1d.css",
-    "main.js": "/vigneshwaran/static/js/main.57f01051.js",
+    "main.js": "/vigneshwaran/static/js/main.c42ac3bd.js",
     "index.html": "/vigneshwaran/index.html",
     "main.c248ea1d.css.map": "/vigneshwaran/static/css/main.c248ea1d.css.map",
-    "main.57f01051.js.map": "/vigneshwaran/static/js/main.57f01051.js.map"
+    "main.c42ac3bd.js.map": "/vigneshwaran/static/js/main.c42ac3bd.js.map"
   },
   "entrypoints": [
     "static/css/main.c248ea1d.css",
-    "static/js/main.57f01051.js"
+    "static/js/main.c42ac3bd.js"
   ]
 }
