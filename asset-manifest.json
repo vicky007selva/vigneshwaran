@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/vigneshwaran/static/css/main.c248ea1d.css",
+    "main.js": "/vigneshwaran/static/js/main.19b330a3.js",
+    "index.html": "/vigneshwaran/index.html",
+    "main.c248ea1d.css.map": "/vigneshwaran/static/css/main.c248ea1d.css.map",
+    "main.19b330a3.js.map": "/vigneshwaran/static/js/main.19b330a3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c248ea1d.css",
+    "static/js/main.19b330a3.js"
+  ]
+}
