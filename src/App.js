@@ -146,7 +146,7 @@ function App() {
           <h1>what can i do 🤔?</h1>
           <br />
           <h2>Well . i do know how to develop software products using reactJS nodeJS mongoDB and muchmore...</h2>
-          <h4 style={{ marginLeft: '3rem', color: '#9734b5' }}>Lets join and make somechange in the world... 🤘</h4>
+          <h4 style={{ marginLeft: '3rem', color: '#9734b5' }}>Let's join and make somechange in the world... 🤘</h4>
         </Box>
       </Box >
     </>
