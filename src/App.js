@@ -3,22 +3,28 @@
 import CommonAppbar from "./components/CommonAppbar";
 import './App.css'
 import SkillCard from "./components/SkillCard";
+import softimage from "./craiyon_184046_software_developer.png"
 
 //material ui import
 import { Box, colors } from "@mui/material";
 import Avatar from '@mui/material/Avatar';
+import { useTheme } from '@mui/material/styles';
+import useMediaQuery from '@mui/material/useMediaQuery';
 
 
 
 
 function App() {
-
+  const theme = useTheme();
+  const matches = useMediaQuery(theme.breakpoints.down('md'));
 
   return (
+   
     <>
+     {console.log(matches)}
       <CommonAppbar />
-      <Box sx={{ display: 'flex', flexDirection: 'row', gap: '4rem', width: '100%', maxHeight: '50%' }}>
-        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: "#182535", marginTop: '1rem', padding: '5%', }} width='50%' height='50%' >
+      <Box sx={{ display: 'flex', flexDirection: `${matches?'column':'row'}`, gap: '4rem', width: '100%', maxHeight: '100%' }}>
+        <Box sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', backgroundColor: "#182535", marginTop: '1rem', padding: '5%', }} width={matches?'100%':'50%'} height='50%' >
           <h1 style={{ color: '#9734b5', fontWeight: 'bold' }}>
             <span>Hey </span>I am <span>Vigneshwaran</span>
           </h1>
@@ -35,11 +41,11 @@ function App() {
 
 
         </Box>
-        <Box sx={{ marginTop: '1rem', width: '50%', height: '50%' }}>
+        <Box sx={{ marginTop: '1rem', width:`${matches?'100%':'50%'}`, height: '50%' ,justifyContent:'center' }}>
           <Avatar id="img"
-            src="./craiyon_184046_software_developer.png"
+            // src="/public/craiyon_184046_software_developer.png"
             alt="Remy Sharp"
-            //  src="/20221007_134628.png"
+            src={softimage}
             sx={{ width: '100%', height: '100%' }}
           >
 

@@ -6,6 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 
+
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemText from '@mui/material/ListItemText';
@@ -13,6 +14,9 @@ import ListSubheader from '@mui/material/ListSubheader';
 
 const SkillCard = () => {
     return (
+
+
+
         <>
             <Card sx={{ marginTop: '2rem', Width: '50%' }}>
                 <CardActionArea>
@@ -85,15 +89,15 @@ const SkillCard = () => {
                 </CardActionArea>
             </Card>
 
-            <Card sx={{ marginTop: '2rem', Width: '50%' }}>
-                <CardActionArea>
+            {/* <Card sx={{ marginTop: '2rem', Width: '50%' }}>
+                <CardActionArea> */}
                     {/* <CardMedia
                 component="img"
                 height="140"
                 image="/"
                 alt=""
               /> */}
-                    <CardContent>
+                    {/* <CardContent>
                         <Typography gutterBottom variant="h5" component="div">
                             EXPERIENCE
                         </Typography>
@@ -104,7 +108,7 @@ const SkillCard = () => {
                         </Typography>
                     </CardContent>
                 </CardActionArea>
-            </Card>
+            </Card> */}
         </>
     )
 }

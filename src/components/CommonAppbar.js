@@ -93,9 +93,8 @@ function CommonAppbar() {
                 >
                   <Typography   color="inherit" style={{ borderRight: '0.1em solid black', padding: '0.5em' }}
                    textAlign="center">{page}</Typography>
+                    
                 </MenuItem>
-               
-
               ))}
             </Menu>
           </Box>
@@ -118,8 +117,9 @@ function CommonAppbar() {
           >
             LOGO
           </Typography>
-          {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
+              <>
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
@@ -127,10 +127,12 @@ function CommonAppbar() {
               >
                 {page}
               </Button>
+              <Divider orientation="vertical" variant="middle" light flexItem></Divider>
+              </>
             ))}
-          </Box> */}
+          </Box> 
 
-          {/* <Box sx={{ flexGrow: 0 }}>
+           {/* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
