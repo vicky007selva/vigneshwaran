@@ -18,7 +18,7 @@ import { Outlet, Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 //Project Import
-import Resume from './static/media/UPDATE_RESUME_PDF.2d62f5c0dea72089e8ee.pdf'
+import Resume from './UPDATE_RESUME_PDF.pdf'
 
 const pages = ['Home', 'Resume', 'Experience', 'contact'];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
