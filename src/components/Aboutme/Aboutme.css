@@ -1,0 +1,26 @@
+h1 {
+    position: relative;
+    font-size: '3rem'; 
+  }
+  
+  h1:hover:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+  }
+
+ .quote{
+    position: relative;
+    font-size: '5rem'; 
+  }
+
+  .quote:hover:after {
+    content: attr(data-hover);
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: green;
+    background: white;
+  }
