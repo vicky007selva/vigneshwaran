@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c9dc6eff.css",
-    "main.js": "/static/js/main.5474995f.js",
-    "static/media/UPDATE_RESUME_PDF.pdf": "/static/media/UPDATE_RESUME_PDF.2d62f5c0dea72089e8ee.pdf",
-    "static/media/craiyon_184046_software_developer.png": "/static/media/craiyon_184046_software_developer.fffa9f4c37d42ddd4bf8.png",
-    "index.html": "/index.html",
-    "main.c9dc6eff.css.map": "/static/css/main.c9dc6eff.css.map",
-    "main.5474995f.js.map": "/static/js/main.5474995f.js.map"
+    "main.css": "/vigneshwaran/static/css/main.c9dc6eff.css",
+    "main.js": "/vigneshwaran/static/js/main.3ea7aa34.js",
+    "static/media/UPDATE_RESUME_PDF.pdf": "/vigneshwaran/static/media/UPDATE_RESUME_PDF.2d62f5c0dea72089e8ee.pdf",
+    "static/media/craiyon_184046_software_developer.png": "/vigneshwaran/static/media/craiyon_184046_software_developer.fffa9f4c37d42ddd4bf8.png",
+    "index.html": "/vigneshwaran/index.html",
+    "main.c9dc6eff.css.map": "/vigneshwaran/static/css/main.c9dc6eff.css.map",
+    "main.3ea7aa34.js.map": "/vigneshwaran/static/js/main.3ea7aa34.js.map"
   },
   "entrypoints": [
     "static/css/main.c9dc6eff.css",
-    "static/js/main.5474995f.js"
+    "static/js/main.3ea7aa34.js"
   ]
 }
