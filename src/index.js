@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
+import CommonAppbar from "./components/CommonAppbar";
+import Contact from './Pages/Contact';
+import Experience from './Pages/Experience';
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 import App from './App';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<CommonAppbar />}>
+           <Route index element={< App/>} />
+          <Route path="Experience" element={<Experience />} />
+          <Route path="contact" element={<Contact />} />
+        </Route>
+      </Routes>
+      </BrowserRouter>
   </React.StrictMode>
 );
 
