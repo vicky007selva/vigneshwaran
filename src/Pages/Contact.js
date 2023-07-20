@@ -64,7 +64,7 @@ const Contact = () => {
         <input style={{ width: '100%' }} type="email" name="user_email" />
         <label>Message</label>
         <textarea style={{ width: '100%', height: '40%' }} name="message" />
-        {alert && <Alert variant="filled" severity="success">
+        {alert && <Alert onClose={() => { setAlert(false)}} variant="filled" severity="success">
         Thank you for reaching out to me...😊!
          </Alert> }
         <input style={{ width: '50%' }} type="submit" value="Send" />
