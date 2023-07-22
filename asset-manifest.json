@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vigneshwaran/static/css/main.c9dc6eff.css",
-    "main.js": "/vigneshwaran/static/js/main.c97e8b89.js",
+    "main.js": "/vigneshwaran/static/js/main.d0233834.js",
     "static/media/UPDATE_RESUME_PDF.pdf": "/vigneshwaran/static/media/UPDATE_RESUME_PDF.2d62f5c0dea72089e8ee.pdf",
     "static/media/craiyon_184046_software_developer.png": "/vigneshwaran/static/media/craiyon_184046_software_developer.fffa9f4c37d42ddd4bf8.png",
     "index.html": "/vigneshwaran/index.html",
     "main.c9dc6eff.css.map": "/vigneshwaran/static/css/main.c9dc6eff.css.map",
-    "main.c97e8b89.js.map": "/vigneshwaran/static/js/main.c97e8b89.js.map"
+    "main.d0233834.js.map": "/vigneshwaran/static/js/main.d0233834.js.map"
   },
   "entrypoints": [
     "static/css/main.c9dc6eff.css",
-    "static/js/main.c97e8b89.js"
+    "static/js/main.d0233834.js"
   ]
 }
