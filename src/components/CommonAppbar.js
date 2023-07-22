@@ -40,14 +40,13 @@ function CommonAppbar() {
 
 
   const handleNavigation = (page) => {
-       console.log(`/${page}`)
-       let page1 = page
-       if(page === 'Home')
-       {
-        page1= ''
-       }
-       Navigate(`/${page1}`)
-        
+    console.log(`/${page}`)
+    let page1 = page
+    if (page === 'Home' || page === 'Resume') {
+      page1 = ''
+    }
+    Navigate(`/${page1}`)
+
   }
 
   return (
@@ -104,19 +103,14 @@ function CommonAppbar() {
                 }}
               >
                 {pages.map((page) => (
-                  <MenuItem key={page} onClick={() =>handleNavigation(page)}
+                  <MenuItem key={page} onClick={() => handleNavigation(page)}
                   >
                     {page === 'Resume' &&
-                      <Link
-                        style={{textDecoration: 'none',color:"inherit"}}
-                        to={Resume}
-                        download="Resume-PDF-document"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
+                      <a style={{ textDecoration: 'none', color: "inherit" }} href={Resume} download="Resume.pdf" target="_blank"
+                        rel="noreferrer">
                         <Typography color="inherit" style={{ borderRight: '0.1em solid black', padding: '0.5em' }}
                           textAlign="center">{page}</Typography>
-                      </Link>
+                      </a>
                     }
                     {page !== 'Resume' &&
                       <Typography color="inherit" style={{ borderRight: '0.1em solid black', padding: '0.5em' }}
@@ -151,13 +145,8 @@ function CommonAppbar() {
                 <>
 
                   {page === 'Resume' &&
-                    <Link
-                      style={{textDecoration: 'none'}}
-                      to={Resume}
-                      download="Resume-PDF-document"
-                      target="_blank"
-                      rel="noreferrer"
-                    >
+                    <a style={{ textDecoration: 'none', color: "inherit" }} href={Resume} download="Resume.pdf" target="_blank"
+                      rel="noreferrer">
                       <Button
                         key={page}
                         onClick={handleCloseNavMenu}
@@ -166,12 +155,12 @@ function CommonAppbar() {
 
                         {page}
                       </Button>
-                    </Link>
+                    </a>
                   }
                   {page !== 'Resume' &&
                     <Button
                       key={page}
-                      onClick={()=>handleNavigation(page)}
+                      onClick={() => handleNavigation(page)}
                       sx={{ my: 2, color: 'white', display: 'block' }}
                     >
 
